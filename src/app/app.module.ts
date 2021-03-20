@@ -15,8 +15,6 @@ import { HomeComponent } from './components/pages/home/home.component';
     AuthModule.forRoot({
       domain: environment.AUTH0_DOMAIN,
       clientId: environment.AUTH0_CLIENT_ID,
-      audience: environment.AUDIENCE,
-      redirectUri: `${window.location.origin}`,
     }),
   ],
   providers: [],
