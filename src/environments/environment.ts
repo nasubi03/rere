@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  AUTH0_DOMAIN: '',
+  AUTH0_CLIENT_ID: '',       // Auth0上に作成したSINGLE PAGE APPLICATIONのClient ID
+  API_URL: '',               // APIのエンドポイント
+  AUDIENCE: '',              // Auth0上に作成したCUSTOM APIのaudience
 };
 
 /*
