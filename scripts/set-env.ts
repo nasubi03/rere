@@ -23,5 +23,6 @@ writeFile(targetPath, envConfigFile, function (err: any) {
   if (err) {
     console.log(err);
   }
+  console.log(`envConfigFile: ${envConfigFile}`);
   console.log(`Wrote variables to ${targetPath}`);
 });
